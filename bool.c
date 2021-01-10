@@ -4,14 +4,13 @@
 #define true !false
 
 typedef int bool; 
-#define max(a,b) (a>b)
-
-int main() {
+#define max(a,b) (a>b) 
+main() {
 	int a,b;
-	printf("veuillez saisir le premier nombre");
+	printf("veuillez saisir le premier nombre :");
 	scanf("%d",&a);
-	printf("veuillez saisir le deuxième nombre");
-	scanf("%d",&b);
+	printf("veuillez saisir le deuxième nombre :");
+	scanf("%d",&b); 
 	if ((a>b)!=false){
 		printf("True");
 	}
