@@ -2,11 +2,11 @@
 
 main(){
 	
-	int r;
-	float pi=3.14,s,d,p;
+	
+	float pi=3.14,s,d,p,r;
 	 
 	printf("\nEnter the raduis value :");
-	scanf("%d", &r);
+	scanf("%f", &r);
 	s=pi*r*r;
 	printf("\nsurface of circle=%f",s);
 	d=r+r;
