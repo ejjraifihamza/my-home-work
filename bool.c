@@ -1,6 +1,5 @@
 #include <stdio.h>
 
-
 #define false 0
 #define true !false
 

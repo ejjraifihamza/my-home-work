@@ -1,6 +1,7 @@
 #include <stdio.h>
 
 int main(){
+	
 	int nbr,somme;
 	float i = 0;
 	float moyenne;
