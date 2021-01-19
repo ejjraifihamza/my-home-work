@@ -1,7 +1,7 @@
 #include <stdio.h>
  int main(){
- 	
- 	float a, b;
+ 	int module;
+ 	int a, b;
  	float result;
  	char operation;
  	printf("choose operation :");
@@ -30,7 +30,9 @@
 	 result = a / b;
 	 printf("result is : %.4f", result);
 	 break;
-	 case'mod':
+	 case'm':
+	 	module = a % b;
+	 	printf("result is %d", module);
 	 	
 	  default :
 	  	printf("please enter the right operation !!!");
