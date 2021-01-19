@@ -1,1 +1,1 @@
-# my-homework : programing in language c 
+# my_homework : programing in language c 
